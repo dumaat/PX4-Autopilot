@@ -1,7 +1,7 @@
 menu "OSD"
     menuconfig COMMON_OSD
         bool "Common OSD drivers"
-        default n
+        default y
         select DRIVERS_OSD_ATXXXX
         select DRIVERS_OSD_MSP_OSD
         ---help---
